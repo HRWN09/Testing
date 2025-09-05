@@ -92,7 +92,7 @@
         }
 
         .panel {
-            background-color: var(--panel-dark);
+            background-color: transparent; /* removed panel background to let main content blend with body */
             border: 1px solid var(--border-dark);
             border-radius: 0;
             padding: 15px;
@@ -130,7 +130,7 @@
         }
 
         .light-mode .panel {
-            background-color: var(--panel-light);
+            background-color: transparent; /* keep panel transparent in light mode too */
             border-color: var(--border-light);
             box-shadow: var(--shadow-light);
         }
